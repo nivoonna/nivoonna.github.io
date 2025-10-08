@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Nidhisha Voonna</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <nav aria-label="Primary" class="site-nav">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+      <li><a href="/journal.html">Journal</a></li>
+      <li>
+        <a href="https://www.cmu.edu/iii/graduate-programs/miips/index.html" 
+           target="_blank" rel="noopener noreferrer">
+          Course Link <span class="visually-hidden">(opens in new tab)</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="main" class="container">
+    <h1 class="title">Contact Me</h1>
+
+    <p class="lead">
+      I’d love to connect and discuss product innovation, AI, or collaboration opportunities. 
+      You can reach me through my LinkedIn profile below.
+    </p>
+
+    <p class="lead">
+      <a href="https://www.linkedin.com/in/nidhishavoonna/" 
+         target="_blank" rel="noopener noreferrer" 
+         style="font-weight:700; color:#1a0dab; text-decoration:none;">
+        Visit my LinkedIn Profile
+      </a>
+      <span class="visually-hidden">(opens in new tab)</span>
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="date"></span></p>
+    <script>
+      document.getElementById("date").textContent = new Date().toLocaleDateString();
+    </script>
+  </footer>
+</body>
+</html>
