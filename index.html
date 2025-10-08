@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Nidhisha Voonna</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="journal.html">Journal</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="https://www.cmu.edu/iii/graduate-programs/miips/index.html" target="_blank" rel="noopener noreferrer">Course Link</a></li>
+    </ul>
+  </nav>
+
+  <main id="main">
+    <h1>Nidhisha Voonna</h1>
+    <p>
+      I’m currently a CMU graduate student exploring Artificial Intelligence through hands-on coursework including 
+      Machine Learning for Product Managers, Operationalizing AI through real-life industry examples, and Demystifying AI. 
+      My goal is to understand how AI can be integrated into real-world products to create impactful, human-centered, 
+      and ethical solutions.
+    </p>
+  </main>
+
+  <footer>
+    <p>© <span id="date"></span></p>
+    <script>
+      document.getElementById("date").textContent = new Date().toLocaleDateString();
+    </script>
+  </footer>
+</body>
+</html>
