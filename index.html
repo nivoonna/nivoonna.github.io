@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Home - Nidhisha Voonna</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <a href="#main" class="skip-link">Skip to main content</a>
 
-  <nav aria-label="Primary">
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/contact.html">Contact</a></li>
-    <li><a href="/journal.html">Journal</a></li>
-    <li>
-      <a href="https://EXTERNAL-URL" target="_blank" rel="noopener noreferrer">
-        Course Link <span class="visually-hidden">(opens in new tab)</span>
-      </a>
-    </li>
-  </ul>
-</nav>
+  <nav aria-label="Primary" class="site-nav">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+      <li><a href="/journal.html">Journal</a></li>
+      <li>
+        <a href="https://EXTERNAL-URL" target="_blank" rel="noopener noreferrer">
+          Course Link <span class="visually-hidden">(opens in new tab)</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
 
-  <main id="main">
-    <h1>Nidhisha Voonna</h1>
-    <img src="WhatsApp Image 2025-10-08 at 01.25.30_77c998d7.jpg" 
-    alt="New York City skyline at sunset seen across the Hudson River" 
-    style="max-width: 100%; height: auto;" 
-    loading="lazy">
+  <main id="main" class="container">
+    <h1 class="title">Nidhisha Voonna</h1>
     
-    <p>
-      I’m currently a CMU graduate student exploring Artificial Intelligence through hands-on coursework including 
-      Machine Learning for Product Managers, Operationalizing AI through real-life industry examples, and Demystifying AI. 
-      My goal is to understand how AI can be integrated into real-world products to create impactful, human-centered, 
-      and ethical solutions.
+    <img
+      class="hero-img"
+      src="nyc-skyline-2.jpg"
+      alt="New York City skyline at sunset seen across the Hudson River"
+      loading="lazy"
+    />
+
+    <p class="lead">
+      I’m currently a CMU graduate student exploring Artificial Intelligence through hands-on coursework including
+      Machine Learning for Product Managers, Operationalizing AI through real-life industry examples, and Demystifying AI.
+      My goal is to understand how AI can be integrated into real-world products to create impactful, human-centered, and ethical solutions.
     </p>
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <p>© <span id="date"></span></p>
     <script>
       document.getElementById("date").textContent = new Date().toLocaleDateString();
